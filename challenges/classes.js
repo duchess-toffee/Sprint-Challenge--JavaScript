@@ -27,12 +27,13 @@ class CubeMaker extends CuboidMakerClass{
     constructor(length){
         super(length, length, length);
     }
-    volume(){
-            return Math.pow(this.length,3);
-    }
-    surfaceArea(){
-            return 6*(Math.pow(this.length,2));
-    }
+ //   volume(){
+ //           return Math.pow(this.length,3);
+ //           return super.volume;
+ //  }
+ //   surfaceArea(){
+ //           return 6*(Math.pow(this.length,2));
+//    }
 }
 
 const cube = new CubeMaker(4);
